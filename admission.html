@@ -1,0 +1,563 @@
+<style>
+    a{
+        color: #2e3192;
+    }
+    a:hover{
+        color: hsl(330, 91%, 63%);
+    }
+    *{
+        text-decoration: none;
+    }
+    body{
+        background-color: ghostwhite;
+        display: block;
+        color: #2e3192;
+    }
+    form input[type="text"], input[type="number"]{
+        width: 100%;
+        height: 100%;
+        background-color: #f7c94b;
+        color: #2e3192;
+        border-radius: 5px;
+    }
+    form input[type="text"]:hover{
+        background-color: aliceblue;
+    }
+    .hero-btn{
+        background-color: ghostwhite;
+        cursor: pointer;
+    }
+    input{
+        background-color: blanchedalmond;
+    }
+    input:hover{
+        background-color: azure;
+    }
+    .hero-btn:hover{
+        background-color: #f7c94b;
+    }
+    h2{
+        color: #2e3192;
+    }
+    h2:hover{
+        color: green;
+    }
+    select{
+        color: #2e3192; 
+    }
+    footer .WWS{
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: center;
+    border-top: 2px solid #fff;
+    }
+    footer .WWS:hover{
+        color: green; 
+    }
+@media(max-width:1349px){
+    form td{
+        display: inline-flex;
+    }    
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport", content="width=device-width, initial-scale=1.0"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" media="all" href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title> Homepage | Jack and Jill School - Kitale</title>
+        <body bgcolor="ghostwhite">
+
+                    <h1><center><a href="index.html">JACK AND JILL SCHOOL - KITALE</a> </center></h1> 
+                   <img src="images/school.logo.jpg" width="100px" height="100px">
+                   <img src="images/school.logo.jpg" width="100px" height="100px" align="right"> 
+                           <center><b> <a href="jnj_about_management1.html">Our Motto : "I Aim Higher</a></b></center>
+                          
+<hr color="Red">
+<marquee bgcolor="azure" onmouseover="stop();"onmouseout="start();" scrollamount="12"><img src="images/school.logo.jpg" width="30px" 
+    height="30px"> ADMISSION FORM &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/school.logo.jpg" width="30px" 
+    height="30px">REGISTRATION FORM</marquee>
+<hr color="Red">
+<center><h2>ADMISSION & <br>
+REGISTRATION FORM</h2></center> 
+<fieldset>
+    <legend><b>STUDENT DETAILS</b></legend>
+<form>
+    <table>
+        <tr>
+            <td>
+                Last Name:
+            </td>
+            <td>
+                <input type="text" placeholder="Sur-Name" name="SurName" name="surname"> &nbsp;
+            </td>
+           <td>                      
+                First Name:
+            </td>
+            <td>
+                <input type="text" placeholder="First Name" name="FirstName" name="firstname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Date of Birth:
+            </td>
+            <td>
+                <select name="Birthday_day" id="Birthday_DAY" name="dob">
+                    <option value="-1">Day:</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                    <option value="3">03</option>
+                    <option value="4">04</option>
+                    <option value="5">05</option>
+                    <option value="6">06</option>
+                    <option value="7">07</option>
+                    <option value="8">08</option>
+                    <option value="9">09</option>
+                    <option value="10">10</option>
+
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+
+                    <select name="Birthday_month" id="Birthday_Month" name="dob">
+                        <option value="-1">Month:</option>
+                        <option value="January">Jan</option>
+                        <option value="February">Feb</option>
+                        <option value="March">Mar</option>
+                        <option value="April">Apr</option>
+                        <option value="May">May</option>
+                        <option value="June">Jun</option>
+                        <option value="July">Jul</option>
+                        <option value="August">Aug</option>
+
+                        <option value="September">Sep</option>
+                        <option value="October">Oct</option>
+                        <option value="November">Nov</option>
+                        <option value="December">Dec</option>
+                    </select>
+                    
+                    <select name="Birthday_year" id="Birthday_Year" name="dob">
+                        <option value="-1">Year:</option>
+                        <option value="2005">2005</option>
+                        <option value="2006">2006</option>
+                        <option value="2007">2007</option>
+                        <option value="2008">2008</option>
+                        <option value="2009">2009</option>
+                        <option value="2010">2010</option>
+                        <option value="2011">2011</option>
+                        <option value="2012">2012</option>
+
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2020">2020</option>
+
+                        <option value="2021">2021</option>
+                        <option value="2022">2022</option>
+                        <option value="2023">2023</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                        <option value="2027">2027</option>
+                        <option value="2028">2028</option>
+                        <option value="2029">2029</option>
+                        <option value="2030">2030</option>
+                    </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Country of Birth:
+            </td>
+            <td>
+                <input type="text" name="Country of birth" placeholder="Country" maxlength="30" name="country_birth">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birth Certificate/Baptismal No.
+                <br> (<i>MUST Provide a copy</i>):
+            </td>
+            <td>
+                <input type="text" placeholder="B.C No." name="number">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Birth Certificate
+            </td>
+            <td>
+                <input type="file" name="#">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Gender:
+            </td>
+            <td>
+                <input type="radio" name="gender" value="Male" name="m"> Male
+            </td>                    
+            <td>
+                <input type="radio" name="gender" value="Female" name="f">Female
+            </td>
+            <td>
+                <input type="radio" name="gender" value="Other" name="o"> Other
+            </td>                 
+        </tr>
+        <tr>
+            <td>
+                Grade/Programme
+            </td>
+            <td>
+                <select name=" Programme" name="grade_class">
+                    <option value="-1">Select ...</option>
+                    <option value="ECDE">ECDE</option>
+                    <option value="Grade1">Grade 1</option>
+                    <option value="Grade2">Grade 2</option>
+                    <option value="Grade3">Grade 3</option>
+                    <option value="Grade4">Grade 4</option>
+                    <option value="Grade5">Grade 5</option>
+                    <option value="Grade6">Grade 6</option>
+                    <option value="JS7">Junior Sec/ Grade 7</option>
+                    <option value="JS8">Junior Sec/ Grade 8</option>
+                    <option value="JS9">Junior Sec/ Grade 9</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Religion
+            </td>
+                <td>
+                    <select name=" Religion" name="religion">
+                        <option value="-1">Select ...</option>
+                        <option value="Christianity">Christianity</option>
+                        <option value="Islamic">Islamic</option>
+                        <option value="Hinduism">Hinduism</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                Does the child currently<br>
+                suffer from any of the following:
+            </td>
+                <td>
+                    <select name="Diseases" name="diseases">
+                        <option value="-1">Select...</option>
+                        <option value="mental_illness">Mental Illness</option>
+                        <option value="asthma">Asthma</option>
+                        <option value="epilepsy">Epilepsy</option>
+                        <option value="Paralysis">Paralysis</option>
+                        <option value="Ulcers">Ulcers</option>
+                        <option value="APD">Any Physical Disability</option>
+                        <option value="None">Everything Perfectly Normal</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+                <td>
+                    If <b>other</b> Please specify through the school admin: <b>0703305656.<b><br>
+                </td>
+            <div class="Incase_1">
+                <td>
+                    Incase the child suffers from :<br>
+                    <b>One of the above<b> Is the child currently on any medication? 
+                </td>
+                <td>
+                    <input type="text" placeholder="YES" name="">
+                </td>
+                <td>
+                    <input type="text" placeholder="NO" name="">
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <td>
+                Is the Admission required as a border?
+            </td>
+            <td>
+                <input type="text" placeholder="NO" name="">
+            </td>
+            <td>
+                <input type="text" placeholder="YES" name="">
+            </td>
+        </tr>
+        <tr>
+            <td><br>
+                <br>
+                <br>
+                
+            <b>DETAILS OF AND FROM<br>
+            PREVIOUS SCHOOLS<b> <br/><br/><br/>
+            </td>
+            <td> 
+            <table>
+                <tr>
+                    <td align="center" <b>SI. No.</b></td>
+                    <td align="center" <b>Name of Previous School</b></td>
+                    <td align="center" <b>Class/Grade</b></td>
+                    <td align="center" <b>From (Year)</b></td>
+                    <td align="center" <b>To </b></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" name="1_Name of Previous School" maxlength="50" name="previous_school"/></td>
+                    <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                    <td><input type="date" name="1_From (Year)" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    <td><input type="date" name="1_To (Year)" min="2005-12-31" max="2030-12-31"/></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" name="1_Name of Previous School" maxlength="50" name="previous_school"/></td>
+                    <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                    <td><input type="date" name="1_From (Year)" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    <td><input type="date" name="1_To" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" name="1_Name of Previous School" maxlength="40" name="previous_school"/></td>
+                    <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                    <td><input type="date" name="1_From (Year)"min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    <td><input type="date" name="1_To" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                </tr>
+            </table>
+
+            <tr>
+                <td><br>
+                    <br>
+                    <br>
+                    
+                <b>Provide Transfer Forms and UPI No.<br>
+                : (Nemis Registration Number)...<b> <br/><br/><br/>
+                </td>
+                <td> 
+                <table>
+                    <tr>
+                        <td align="center" <b>S.No.</b></td>
+                        <td align="center" <b>UPI No.</b></td>
+                        <td align="center" <b>Class/Grade</b></td>
+                        <td align="center" <b>Enrolled(Year)</b></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="1_UPI No." maxlength="25" name="number"/></td>
+                        <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                        <td><input type="date" name="1_Enrolled (Year)" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="1_UPI No." maxlength="25" name="number"/></td>
+                        <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                        <td><input type="date" name="1_Enrolled (Year)" min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="1_UPI No." maxlength="25" name="number"/></td>
+                        <td><input type="text" name="1_Class/ Grade" maxlength="15" name="grade_class"/></td>
+                        <td><input type="date" name="1_Enrolled (Year)"min="2005-12-31" max="2030-12-31" name="year"/></td>
+                    </tr>
+                </table>
+            <tr>
+                <td>
+                    Would You Like to use school transport?
+                </td>
+                <td>
+                    <input type="radio" name="traced" value="NO" name="NO"> NO
+                </td>                    
+                <td>
+                    <input type="radio" name="traced" value="YES" name="YES">YES
+                </td>
+                <td>
+                    <input type="radio" name="traced" value="N/E" name="N/E"> NOT EVERYDAY
+                </td>                 
+            </tr>
+        <tr>
+            <td>
+                If YES from the above; Please give details of your Pick-Up and Drop off point as accurate as possible!
+                <b>See the School Admin to leave the details</b>
+            </td>
+        </tr>
+    </table>
+</fieldset>
+</form>
+<br>
+<br>
+<form>
+<fieldset>
+        <legend><b>PARENT'S/ GUARDIAN'S PERSONAL DETAILS</b></legend>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Parent's Last Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Sur-Name" name="SurName" name="surname_2"> &nbsp;
+                </td>
+               <td>                      
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="First Name" name="FirstName" name_2>
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Mobile No.
+                </td>
+                <td>
+                    <input type="text" name="mobile_no" maxlength="10" name="number_2">
+                </td>
+            </tr> 
+            <tr>
+                <td>
+                    Nationality.
+                </td>
+                <td>
+                    <input type="text" name="nationality" maxlength="25" name="nationality">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    National ID / Passport No.
+                </td>
+                <td>
+                    <input type="text" name="national_Id" maxlength="15" name="id_number2">
+                </td>
+            </tr>
+            <tr>
+            <tr>
+                <td>
+                    Home County.
+                </td>
+                <td>
+                    <input type="text" name="homecounty" maxlength="15" name="home_country">
+                </td>
+            </tr>
+           
+                <td>
+                    Postal Address./ Residence
+                </td>
+                <td>
+                    <input type="number" name="postal address" maxlength="30" name="postal_address2">
+                </td>
+            </tr>
+            
+<br>
+<br>
+            <tr>
+                <td>
+                     Profession / Occupation:
+                </td>
+                <td>
+                    <input type="text" placeholder="Parent's Profession " name="occupation" maxlength="35" name="prof">
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+<br>
+<br>
+<form>
+<fieldset>
+        <legend><b>APPOINTED GUARDIAN'S DETAILS</b></legend>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    Guardian's Last Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Sur-Name" name="SurName" name="guardian_surname"> &nbsp;
+                </td>
+               <td>                      
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="First Name" name="FirstName" name="guardian_firstname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    National ID / Passport No.
+                </td>
+                <td>
+                    <input type="number"placeholder="ID" name="national_id" maxlength="15">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile No.
+                </td>
+                <td>
+                    <input type="number"placeholder="Mobile No." name="mobile_no" maxlength="10" name="guardian_mobile">
+                </td>
+            </tr>
+                <tr>
+                <td>
+                     Profession / Occupation:
+                </td>
+                <td>
+                    <input type="text" placeholder="Profession " name="occupation" maxlength="35" name="guardian_prof">
+                </td>
+                </tr>
+            </tr>
+        </table>
+    </fieldset>
+</form>
+
+    <br>
+    <br>
+    <hr width="100%" size="2px" color="Red">
+    <h3>DECLARATION</h3>
+    <p>I do hereby declare that <br> &nbsp;&nbsp;&nbsp;<b>1.</b>The above information I have filled are correct.<br> &nbsp;&nbsp;&nbsp;<b>2.</b> The best of my knowledge</p>
+<input type="checkbox" name="#" required="required">E - Signature
+<hr width="100%" size="2px" color="Red">
+
+<center> 
+<tr>
+<td>
+<button type="submit" class="hero-btn" name="submit"> Submit</button>
+</td>
+<td>
+<button type="reset" class="hero-btn" name="reset"> Reset</button>
+</td>
+</tr>
+</center>
+
+<Footer>
+   <p class="WWS"> Copyright ©2024. All rights reserved|| Jack and Jill School - KITALE.
+    Designed by : Webmaster: Mista Nangabo&trade;</p>        
+</Footer>          
+    </body>
+</html>

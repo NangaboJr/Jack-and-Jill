@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta name="viewport", content="width=device-width, initial-scale=1.0"> 
+       <!-- Search Engine Optimization by Rank Math - https://rankmath.com/ -->
+    <title>Homepage | Jack and Jill School - Kitale</title>
+    <link rel="stylesheet" href="style.css">
+
+<!-- GOOGLE FONTS - Tinos, serif family -----/ -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<!--------=======--SWIPER JS ------=========------->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
+<!--------=======--BOOTSTRAP ICONS------=========------->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+</head>
+    <body>
+        <home class="home open">
+            <div class="container home_container">
+                <div class="row v-center">
+                        <div class="header_logo">       
+                        <a href="index.html"><img src="images/school.logo.jpg"></a>
+                        </div>
+                    <!--------=======--MENU //NAVIGATION STARTS HERE------=========------->
+                    <div class="open-nav-menu" id="open-menu-btn">
+                        <i class="bi bi-list"></i>
+                    </div>
+                            <nav class="nav-menu" id="nav__menu"> 
+                                <div class="close-nav-menu" id="close-menu-btn">
+                                    <i class="bi bi-x-lg"></i>
+                                </div>
+                        <ul class="nav_items">
+                                <li class="menu-item"><a href="index.html" class="nav__link">HOME</a></li>
+                                <li class="menu-item nav-item-has-children"><a href="#">ABOUT<i class="bi bi-chevron-down"></i>
+                                </a>
+                                    <div class="sub-menu mega-menu mega-menu-column-4">
+                                        <div class="menulist-items">
+                                            <h4 class="title">About JnJS</h4>
+                                            <ul>
+                                                <li><a href="jnj_about_management1.html">All About Us</a></li>
+                                                <li><a href="jnj_background-hist.html">Our History</a></li>
+                                                <li><a href="jnjmission_vm.html">Our Vision</a></li>
+                                                <li><a href="jacjnjill-core-values-principles.html">Our Core Values</a></li>
+                                            </ul>  
+                                        </div>
+                                        <div class="menulist-items">
+                                            <h4 class="title">Governance </h4>
+                                            <ul>
+                                                <li><a href="directorjnj.html">The Director</a></li>
+                                                <li><a href="head-teacher.html">Head Teacher</a></li>
+                                                <li><a href="deputyjnj.html">Deputy H/Teacher</a></li>
+                                                <li><a href="jnjstaff-team.html">Our Staff</a></li>
+                                            </ul> 
+                                        </div>
+                                          
+                                        <div class="menulist-items">
+                                            <h4 class="title">Our Partners </h4>
+                                            <ul>
+                                                <li><a href="https//www.unep.org/node">UN Environment Programme </a></li>
+                                                <li><a href="https://www.wikiwand.com/en/Kenya_Scouts_Association">Kenya Scouts Association</a></li>
+                                        </div>
+                                          
+                                        <div class="menulist-items">
+                                            <h4 class="title">The Alumni</h4>  
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="nav-item-has-children"><a href="#">ACADEMICS<i class="bi bi-chevron-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="jnjcbc.html">CBC Programme</a></li>
+                                            <li><a href="jnj-junior-highschool.html">Junior High School</a></li>
+                                            <li><a href="#">Academic Resources</a></li>
+                                            <li><a href="e-learning.html">E Learning</a></li>
+                                            <li><a href="#">Examination</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item-has-children"><a href="jacknjill.page_id=5408.html">ADMISSIONS<i class="bi bi-chevron-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="admission.html">Apply for Admission</a></li>
+                                            <li><a href="virtualjnj.html">Online Application</a></li>
+                                            <li><a href="#">Fee Structure</a></li>
+                                            <li><a href="how-to-pay.html">How To Pay</a></li>
+                                            <li><a href="#">Career</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item-has-children"><a href="blog.html">INFORMATION CENTRE<i class="bi bi-chevron-down"></i></a>
+                                    <div class="sub-menu single-column-menu">
+                                        <ul>
+                                            <li><a href="jnjtransportgig.html">Our Transport Services</a></li>
+                                            <li><a href="jnjboarding-facilities.html">Boarding & Facilities</a></li>
+                                            <li><a href="facilities@jnjschool_clubs.html">Beyond Curriculum Activities</a></li>
+                                            <li><a href="#">Events</a></li>
+                                        </ul>
+                                    </div>
+                                </li>   
+                                <li><a href="contact.html">CONTACT</a></li> 
+                                <li><a href="gallery.html">NEWS & MEDIA</a></li> 
+                        </ul>
+                            </nav>       
+                        </div>
+                    <!--------=======--MENU ENDS HERE ------=========------->
+                        <div class="home-item item-right">
+                            <button class="btn btn-primary button" id="form-open" name="submit">Login</button> 
+                        </div>
+                </div>
+            </div>
+        </home>
+<!-----------==========NAV/HOME SECTION ENDS HERE===========---------->
+<script>
+    //Show/Hide Navigation (NAV-MENULINKS)
+const menu = document.querySelector(".nav-menu");
+const menuBtn = document.querySelector("#open-menu-btn");
+const closeBtn = document.querySelector("#close-menu-btn");
+
+menuBtn.addEventListener("click",() =>{
+menu.style.display = "block";
+closeBtn.style.display = "inline-block";
+
+})
+
+//Close nav_items//
+
+const closeNav = ()=>{
+menu.style.display = "none";
+closeBtn.style.display = "none";
+menuBtn.style.display = "inline-block";
+}
+
+closeBtn.addEventListener('click',closeNav)
+</script>
+<style>
+    .academics{
+        padding-top: 20rem;
+    }
+</style>
+<section class="academics">
+    <div class="container academics_container">
+        <div class="academic-programmes__left">
+            <h1>ACADEMICS</h1>
+            <p>The inception of Jack and Jill School is traced back to 1985, with the establishment of the Royal ECD and kindergarten 
+                classes which admitted its first lot of little children for basic and foundational education. Since the the school
+                 upgradingly has grown to become a great ECD, Primary (Competency Based Curriculum) level and Junior High School level education. 
+                 Meanwhile, as to the growth and development of the school, the community and nurturing of the children's talents. The school 
+                 provides various beyond the curriculum activities such as chess, swimming, skating amongst other ...<br>
+                 <BR>
+
+                The school is managed/ directed by the School's Management, which is made up of 3 Divisions name:<br><br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="school" style="color: maroon;">Administration Division</b>
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="school" style="color: orange;">Planning Division</b>
+                <br>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b class="school" style="color: purple;">Academic Division</b>
+                </p>
+                <a href="jnj-administrationpage.html" class="btn">LEARN MORE</a>
+        </div>
+
+
+        <div class="academics-programmes__right">
+            <article class="academic">
+                <span class="academic__icon"><i class="bi bi-pencil"></i></span>
+                <h5>Early Child Development Learning</h5>
+                <p>Early Childhood Education is very important because it allows both the teaachers and parents to understand the cognitive, emotional, physical, social, 
+                    and educational growth that children go through from birth and into early adulthood.
+                    In our ECD we are entitled in providing exactly what our children need of us; with absolute best and caring ECD Teachers. We provide a healthy 
+                    menu timely to our children as we also keep security to all our children more importantly in this level of development</p>
+            </article>
+            <article class="academic">
+                <span class="academic__icon"><i class="bi bi-book"></i></span>
+                <h5>Primary Level (CBC Learning)</h5>
+                <p> CBC programmes form what is provided to this level of learners. Our school programmes are made certain to 
+                    preparing pupils for success in their future studies. Jack and Jill School programmes aims to nurturing the inborn potential of 
+                    each child. At this level our teachers emphasize on both beyond the curriculum activities and focusing on making the learner get to understand the subjects 
+                    and ways of tackling matters</p>
+            </article>
+            <article class="academic">
+                <span class="academic__icon"><i class="bi bi-vector-pen"></i></span>
+                <h5>Junior High School</h5>
+                <p>This Level start with Grade 7 to Grade 9 learners. Jack and Jill                                
+                    School - KITALE, we are proudly committed to providing our level best education to the
+                     Junior High students.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!------------========== END OF Academic Programmes Division- ACADEMICS./======------------->
+
+<section class="facilities">
+    <h2>Our Popular Co-Curricular <br>
+         Activities</h2>
+        <div class="container facilities_container">
+            <article class="facility">
+                <div class="facility__image">
+                    <img src="images/Swimming.jpg">
+                </div>
+                <div class="facilities__informationstatbase">
+                <h4>SWIMMING</h4>
+                <P>Swimming is a great workout because you need to move your whole body against the resistance of the water. 
+                    This activity keeps your heart rate up but takes some of the impact stress off your body it also builds endurance, muscle strength and cardiovascular fitness
+                    amongst other healthy benefit. As part of the co - curricular activities in the school calendar, Jack and Jill School students take part in swimming competition 
+                    within the county and with prospects to win almost every swimming competition seasons. This has been necessitated since with reference to the club of choice the 
+                    children, pupils and students visit the swimming pools for both rehearsals or body exercises on Wednesday: Every other Week   
+                </P>
+                </div>
+            </article>
+            <article class="facility">
+                <div class="facility__image">
+                    <img src="images/chessone.jpg">
+                </div>
+                <div class="facilities__informationstatbase">
+                <h4>CHESS</h4>
+                <P>When playing chess, your brain is challenged to exercise logic, develop pattern recognition, make decisions both visually and analytically, 
+                    and test your memory. Chess can be enjoyed by any age—as a result, these brain exercises can be part of the health of your brain for your entire life!
+                    Our school provide this activities in clubs: Chess Club. Students with low memory of remembrance are advised to practise this analytical game not for fun 
+                    but rather for exercise pattern development and recognition and analysis, thereby sometimes improving the pupils cognitive skills.   
+                </P>
+                </div>
+            </article>
+            <article class="facility">
+                <div class="facility__image">
+                    <img src="images/golfing.jpg">
+                </div>
+                <div class="facilities__informationstatbase">
+                <h4>GOLF </h4>
+                <p>Golf is an individual sport played by hitting a ball with a club from a tee into a hole. A standard golf course consists of 18 holes, where each hole is labeled as Par 3, 4, 5, 
+                rarely a Par 6. “Par” in golf stands for the regulated amount of strokes it takes to get the ball into the hole. The idea of the game is to get the ball in the hole the fewest amount 
+                of strokes as possible. First and foremost, golf is good exercise. Not only do you spend a lot of time on your feet, but you also do a lot of walking. In fact, most courses will have you walking around 4 miles by the end, 
+                so you'll certainly get in your daily step goals. And whereas there's nothing wrong with playing golf with a friend, another benefit of playing golf is that you can make new friends. 
+                </p>
+                <a href="/facilities@jnjschool_clubs.html" class="btn btn-primary"> SEE MORE OF OUR BEYOND CURRICULUM ACTIVITIES</a>
+                </div>
+            </article>
+            <article class="facility">
+                <div class="facility__image">
+                    <img src="images/skating.jpg">
+                </div>
+                <div class="facilities__informationstatbase">
+                <h4>SKATING </h4>
+                <p>Skating (floor) is a workout sport played while wearing skating shoes or boots mainly on the floor or a smooth terrace. There are different types of skating including <b>Jam skating;</b> usually practised with song beats
+                <b>Inline Skating;</b> this is the popular type of skating and <b> Artistic or Ice Skating; </b> this is practised on ice fields by normally artistic or artistes persons. At Jack and Jill School we practise the <b>Inline Speed Skating.</b>
+                We have team leaders and coaches training learners during club time/hour on ways to and how to skate. Junior learners and beginners are always provided with a support coach or an expert student 
+                to help them gain confidence before starting the training. Our students/ learners are provided with safety tools and attires before entering the training or the skating fields, this helps is preventing injuries that may rise from mishandling or lack 
+                of concentration for beginners. 
+                </p>
+                <a href="/facilities@jnjschool_clubs.html" class="btn btn-primary"> SEE MORE OF OUR BEYOND CURRICULUM ACTIVITIES</a>
+                </div>
+            </article>
+        </div>
+</section>
+
+<!------------========== END OF Academic Facilities Division- ACADEMICS./======------------->
+
+
+<section class="faqs">
+    <h2>Frequently Asked Questions</h2>
+    <div class="container faqs__container">
+        <div class="faqs__container-content1">
+            <ul class="faq__accordion">
+                <li>
+                    <input type="radio" name="accordion" id="start">
+                    <label for="start">Who owns Jack and Jill School - Kitale?</label>
+
+                        <div class="featuring_content">
+                             <p>  
+                                Senior Advocate. Director. Mr. Atudo Pinto and family owns Jack and Jill School - KITALE, he is responsible for the operational Management
+                                of the school
+                            </p>
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second">
+                    <label for="second"> What curriculum does Jack and Jill School - Kitale follow?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                The school follows the Kenyan. The Kenyan curriculum includes the 2.6.6.3 Competency-Based Curriculum currently catering for Pre-primary to Junior Secondary.
+                                We apply global top notch and best practices in pedagogy with a focus on retaining our Kenyan cultural values.
+                            </p>
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third">
+                    <label for="third"> Does Jack and Jill School - Kitale provide for boarding facilities?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                Jack and Jill School provides for both boarding and day learning facilities.
+                            </p>
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="forth">
+                    <label for="forth">How do I apply for Admission? </label>
+
+                        <div class="featuring_content">
+                             <p>  
+                                To apply for admission <a href="admission.html" class="btn"> VISIT HERE </a> <br> FILL THE FORM. The admissions officer will contact you ASAP.
+                            </p>
+                        </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="fifth">
+                    <label for="fifth"> What are the admission requirements?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                Kindly prepare the following documents to either upload with your application or to submit hard copies to our admissions office:
+
+                                <b>A copy of the child's birth certificate</b>,
+                    
+                                <b>Latest school report from the child's current school</b>,
+                    
+                                <b>Leaving certificate/letter</b>,
+                    
+                                <b>NEMIS number and assessment number for those registered with the Ministry of Education</b>,
+                    
+                                <b>Copy of parents/guardians ID card/passport</b>, and
+                    
+                                <b>KCPE result slip if applicable</b>
+                            </p>
+                        </div>
+                </li>
+            </ul>
+        </div>            
+            <div class="faqs__container-content1">
+                <ul class="faq__accordion">   
+                    <li>
+                        <input type="radio" name="accordion" id="sixth" checked>
+                        <label for="sixth"> Is there a deadline for admissions ?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                No, we have intakes running throughout the year if there is space available for the required year group. 
+                                At Jack and Jill School - KITALE we believe that our education should enable every learner to make amazing academic progress no matter their starting point.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="eighth">
+                        <label for="eighth"> Is school transport available?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                Yes, school transport is available to almost all areas within Kitale.
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="nineth">
+                        <label for="nineth"> What activities can my child engage in outside of academics? </label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                Lots! We have a very wide range of competitive sports which we pride in as a school, 
+                                from swimming, to chess, skating, golf. We also offer music, art, drama and many other clubs.</P> 
+                                    <br>
+                                <a href="facilities@jnjschool_clubs.html" class="btn"> Click Here To See More</a> 
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="accordion" id="tenth">
+                        <label for="tenth"> Does Jack and Jill School - Kitale enrol children with special needs?</label>
+        
+                        <div class="featuring_content">
+                            <p>
+                                Depending on the specialised care required for the special need, the Headteacher will be able to determine if we can provide a 
+                                good education and an enabling environment for your child. We would schedule a meeting with the Headteacher for you to discuss this and arrive 
+                                at a decision that is best for your child.   
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </div>
+</section>
+
+<!------------========== END OF Academic FAQs Division- ACADEMICS./======------------->
+
+   <section class="container testimonal_container mySwiper">
+    <h2>Students' Testimonials</h2>
+    <div class="swiper-wrapper">
+
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/view.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Ian Keitany</h5>
+                    <small>Student</small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> I am glad alumni. Well, I dare say that with maximum efforts and with stiff competition if I may that I experienced during my 
+                            schooling at Jack and Jill School literary bore me admission to one of my dream National School around the country. Jack and Jill School is one
+                            of the best and top performing school in Trans Nzoia County with borders I must say this, Jack and Jill teachers are literary just sharp in intellect.
+                        </p>
+                    </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/directorcar.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Hansel Njuki</h5>
+                    <small>Student</small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> Studying at Jack and Jill School Kitale and being able to score a whooping 408 marks which secured me an admission to my dream school Mang'u High 
+                            (Jishinde Ushinde hahaa!) and being part of the graduation class 2021 with lots of joy from my parents was one of my favorite moments. 
+                            Jack and Jill School is one of the top performing school, infact with everything all round-support and academic, clubs, research trips and events, study groups ... Its the best school in KITALE.
+                        </p>
+                    </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/bannerS.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Israel Kiprop</h5>
+                    <small>Student</small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> Support, efforts and stiff academic competition that YOU will get ... I experienced just that during my 
+                            schooling at Jack and Jill School where everyone wants to be the smartest amongst all the other students in the class or in the subject or all, got me an admission to one of my dream National School around the country. Jack and Jill School is the best
+                            of the best school in Trans Nzoia County. I must say this, Jack and Jill teachers are very intellectual and brilliant.
+                        </p>
+                    </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/bus.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Mista Nangabo </h5>
+                    <small>Web Developer</small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> Wow! Working at Jack and Jill School- Kitale, being able to complete my Web developing contract without interruption from any parties or the administration; 
+                            (Its a well principled school ) after working there and as usual connecting to new other contracts from the other neighbouring schools and organization. 
+                            Jack and Jill School is amongst the best schools in TRA, infact with the support and administrative concerns, principles and management ... Its the best organization to work in KITALE.
+                        </p>
+                    </div>
+        </article>
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/img3.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Dr. Njuki Stephen Omondi</h5>
+                    <small>Business Manager</small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> I am a business analyst and operator / manager in Trans Nzoia county. I have had many business deals and contracts whichh I was able to apply and won through 
+                            stiff competition from Jack and Jill School - KITALE. I have experienced great business contracts that are profitable and at the same time best to both 
+                            our parties. Jack and Jill teachers and administration and the subordinate staff are literary the best people you can work alongside; they are very responsible.
+                        </p>
+                    </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+            <div class="testimonialpics">
+                <img src="images/classic.jpg">
+            </div>
+                <div class="testimonial__info">
+                    <h5>Brian Waweru</h5>
+                    <small>Student > Surgeon </small>
+                </div>    
+                    <div class="testimonial-info__body">
+                         <p> Iam a proud alumnus of Jack and Jill School Kitale class of 2017. I must confess I was the top student in Trans -Nzoia County
+                            scroring 422 marks and was admitted to St Joseph Boys School KITALE. Working smart as the Director would quote from my primary school times made me who I am
+                            today: A Junior Surgeon ( after studying Bachelor of Medicine and Surgery from the University of Nairobi.) well all my success is accorded to my basic years at this great school.
+                        </p>
+                    </div>
+        </article>
+    </div>
+    <div class="swiper-pagination"></div>
+   </section>
+
+   <!------------========== END OF Academic STUDENTS TESTIMONIAL Division- ACADEMICS./======------------->
+
+<footer class="footer">
+    <div class="container footer__container">
+        <div class="footer__1">
+            <a href="index.html" class="footer__logo">
+                <img src="images/logoheader.png"></a>
+    <p>Pre-School | Primary | Junior High</p>
+        </div>
+        <div class="footer__2">
+            <h4>Permalinks</h4>
+            <ul class="permalinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jnj_about_management1.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admission.html">Admissions</a></li>
+            </ul>
+        </div>
+        <div class="footer__3">
+            <h4>Privacy</h4>
+            <ul class="privacy">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Refund Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer__4">
+            <h4>CONTACT US</h4>
+            <p> <a href="#"><i class="bi bi-telephone"> &nbsp; +254 703305656</i></a></p><br>
+            <p> <a href="#"><i class="bi bi-envelope-open"> &nbsp; info@jacknjillschool.sc.ke</i></a>  </p>
+            <ul class="footer__socials">
+                <li><a href="https://facebook.com/JackNJillSchool"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="https://instagram.com/jnjschool026"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a></li>
+                    <li><a href="https://whatsapp.com"><i class="bi bi-whatsapp"></i></a></li>
+                    <li><a href="https://twitter.com"><i class="bi bi-twitter-x"></i></a></li>
+            </ul>
+        </div> 
+    </div>
+    <div class="footer__copyright">
+            <p>Copyright &copy 2024. All rights reserved || Jack and Jill School - KITALE.
+                Designed by : Webmaster: Mista Nangabo&trade;</p>
+        </div>
+</footer>
+
+
+ <!------------========== END OF THE FOOTER SECTION./======------------->
+         
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="script.js"></script>
+ <script>
+     var swiper = new Swiper(".mySwiper", {
+       slidesPerView: 1,
+       spaceBetween: 30,
+       pagination: {
+         el: ".swiper-pagination",
+         clickable: true,
+       },
+       //when window width =>600px
+       breakpoints: {
+         600: {
+             slidesPerView: 2
+         }
+       }
+     });
+   </script>   
+     </body>
+     
+ </html>
